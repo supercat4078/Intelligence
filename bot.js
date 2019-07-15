@@ -86,3 +86,4 @@ async def on_message(message):
     await client.process_commands(message)
 
 client.run("something_goes_here")
+client.login(process.env.BOT_TOKEN);
